@@ -1,28 +1,31 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import homeImg from './home.jpg'; 
 import './App.css';
+
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <div class="App">
+        <header class="App-header">
+          <img src={homeImg} class="fullImage" alt="c-link" />
+          <div class="centered">Mumbai</div>
         </header>
+        <p>
+            <b>
+                Mumbai formerly known as Bombay. It is the capital of  Maharashtra. The city's also famous as it is the heart of bollywood with the presence of
+                hindi film and TV industries. There are lot of cool places to visit from seeing colonial architecture, beaches to amazing night life.
+                The nights are so radiant that it is called the city that never sleeps.There is lot to explore in this city that has unique bazaars, temples,monuments and India's premier Hotels.
+            </b>
+        </p>
+      
       </div>
+      
     );
   }
 }
 
+
 export default App;
+
