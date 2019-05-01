@@ -4,7 +4,7 @@ class ContactUs extends Component {
     render()
     {
         return(
-<div>
+<div id="Contact" class="contactcontainer">
     <h2>CONTACT US</h2>
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Please Enter First Name"></input>

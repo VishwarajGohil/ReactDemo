@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 import homeImg from './home.jpg'; 
 import './App.css';
-
-
+import Navigation from './navigationBar';
+import Attractions from './Attractions';
+import Activities from './Activities';
+import Contact from './ContactUs';
 
 class App extends Component {
   render() {
     return (
-      <div class="App">
+      <div>
         <header class="App-header">
+        <div class="header">
+        <h1>Explore Mumbai!</h1>
+        </div>
+        <Navigation/>
           <img src={homeImg} class="fullImage" alt="c-link" />
           <div class="centered">Mumbai</div>
         </header>
@@ -19,7 +25,14 @@ class App extends Component {
                 The nights are so radiant that it is called the city that never sleeps.There is lot to explore in this city that has unique bazaars, temples,monuments and India's premier Hotels.
             </b>
         </p>
-      
+      <Attractions/>
+      <Activities/>
+      <Contact/>
+      <div class="footer">
+        <p>
+            CopyRights Reserved © 2019 Vishwarajsinh Gohil and Vaibhav Miglani
+        </p>
+      </div>
       </div>
       
     );

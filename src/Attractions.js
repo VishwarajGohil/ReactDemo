@@ -6,7 +6,7 @@ class Attractions extends Component {
     render()
     {
         return(
-            <div>
+            <div id="Attractions">
                 <h2>Attractions</h2>
                 <div className="row">
                 <div className="column">

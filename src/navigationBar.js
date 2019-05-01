@@ -4,7 +4,7 @@ class Navigation extends Component {
     render()
     {
         return(
-        <div>
+        <div class="navigation" id="scrollbar">
         <a class="active" href="#home">Home</a>
         <a href="#Attractions">Attractions</a>
         <a href="#Activities">Activities</a>

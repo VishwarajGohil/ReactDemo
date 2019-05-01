@@ -8,7 +8,7 @@ class Activities extends Component{
     render()
     {
         return(
-<div>
+<div id="Activities">
     <h2>Activites To Do</h2>
     <div className="row">
         <div className="column">
@@ -18,7 +18,7 @@ class Activities extends Component{
             <p>
                         Elephanta Caves, a UNESCO World Heritage Site.There are seven cave excavations in the Elephanta group.
                         They are located in Elephanta Island.
-                        <a href="#">See Details...</a>
+                        <a href="javascript:void(0)">See Details...</a>
             </p>
         </div>
         </div>
@@ -29,7 +29,7 @@ class Activities extends Component{
             <p>
                         Cycling is a truly invigorating and liberating experience, enjoyed by people of all ages and from all walks of life.
                         Whether you’re cycling to work, to school, to the shops or just for fun,bicycle is an easy way to get more active.
-                        <a href="#">See Details...</a>
+                        <a href="javascript:void(0)">See Details...</a>
             </p>
         </div>
         </div>
@@ -39,7 +39,7 @@ class Activities extends Component{
             <h3>City Tour</h3>
             <p>
                         Explore the whole city for a Day. We will take you to  Gateway Of India,SidhiVinayak Temple,
-                        Juhu Beach,CST Railway Station,Taj.	<a href="#">See Details...</a>
+                        Juhu Beach,CST Railway Station,Taj.	<a href="javascript:void(0)">See Details...</a>
             </p>
         </div>
         </div>
