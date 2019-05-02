@@ -33,6 +33,7 @@ class App extends Component {
             CopyRights Reserved © 2019 Vishwarajsinh Gohil and Vaibhav Miglani
         </p>
       </div>
+      
       </div>
       
     );
